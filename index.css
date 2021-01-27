@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "variables.css";
+
+body
+{
+   font-family: 'Black Han Sans', sans-serif;
+
+ }
+
+
+.welcome-header
+{
+
+margin: 90px 0px;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.welcome-header__title
+{
+  margin-bottom: 40px;
+  font-size: 25px;
+
+}
+
+.welcome-header__text
+{
+  width: 60%;
+  opacity: 0.6;
+
+}
+
+#login-form
+{
+
+display: flex;
+flex-direction: column;
+margin: 0px 40px;
+text-align: center;
+
+
+}
+
+#login-form input
+{
+  padding: 10px 0px;
+  border:none;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+
+}
+
+#login-form input::placeholder
+{
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#login-form input:focus
+{
+  border-color: var(--yellow);
+}
+
+#login-form input[type = "submit"]
+{
+  background-color: var(--yellow);
+}
+
+#login-form a
+{
+   text-decoration: none;
+   color:black;
+}
