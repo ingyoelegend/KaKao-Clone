@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700;800&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "variables.css";
+@import "nav-bar.css";
+@import "header.css";
+@import "user-component.css";
+body
+{
+   font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+#firends-display__link
+{
+
+text-align: center;
+display: block;
+position: relative;
+top: 60px;
+background-color: rgba(0, 0, 0, 0.1);
+padding: 9px 0px;
+color: rgba(0, 0, 0, 0.8);
+
+}
+
+
+#firends-display__link i
+{
+
+color: rgba(0, 0, 0, 0.2);
+
+}
