@@ -1,0 +1,30 @@
+
+
+.nav
+{
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 15px 50px;
+  border-top: solid 2px rgba(0, 0, 0, 0.1);
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+
+
+}
+
+
+.nav__ul
+{
+
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.nav__a
+{
+  color: rgba(0,0,0,0.8);
+}

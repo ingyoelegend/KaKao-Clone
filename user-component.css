@@ -1,0 +1,27 @@
+.user-component
+{
+  display: flex;
+  position: relative;
+  top:80px;
+
+}
+
+.user-component__comlumn
+{
+  display: flex;
+  align-items: center;
+}
+
+
+.user-component__img
+{
+  border-radius: 30%;
+  width:70px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+.user-component__text
+{
+  font-weight: 800;
+}
