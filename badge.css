@@ -1,0 +1,18 @@
+.badge
+{
+
+
+
+border-radius: 50%;
+background-color: tomato;
+width: 20px;
+height:20px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+margin-top: 5px;
+
+
+
+}
