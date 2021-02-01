@@ -1,21 +1,20 @@
 .screen-header
 {
 display: flex;
-position: relative;
-top: 40px;
 justify-content: space-between;
 align-items: center;
+padding: 25px;
 
 }
 
 .screen-header__title
 {
   font-weight: 800;
-  margin-left: 10px;
+
   font-size: 20px;
 }
 
 .screen-header__btn
 {
-margin: 0px 10px;
+  margin-left: 15px;
 }

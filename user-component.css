@@ -1,8 +1,7 @@
 .user-component
 {
   display: flex;
-  position: relative;
-  top:80px;
+  justify-content: space-between;
 
 }
 
@@ -10,18 +9,39 @@
 {
   display: flex;
   align-items: center;
+
 }
 
 
-.user-component__img
+.user-component__img-xl
 {
   border-radius: 30%;
-  width:70px;
-  height: 70px;
+  width:80px;
+  height: 80px;
   margin-right: 20px;
+
 }
 
 .user-component__text
 {
   font-weight: 800;
+}
+
+.user-component__img-sm
+{
+  border-radius: 50%;
+  width:50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.user-component__name-not-bold
+{
+    font-weight: 700;
+}
+
+
+.user-component__comlumn:last-child
+{
+  color: rgba(0, 0, 0, 0.5);
 }
