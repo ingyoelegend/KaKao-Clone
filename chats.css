@@ -4,8 +4,29 @@
 @import "variables.css";
 @import "nav-bar.css";
 @import "header.css";
-body
+@import "user-component.css";
+@import "badge.css";
+
 {
    font-family: 'Nanum Gothic', sans-serif;
 
+}
+
+.user-component__subtitle
+{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+}
+
+.chat-time
+{
+  display: block;
+}
+
+.user-component__comlumn:last-child
+{
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
