@@ -22,6 +22,7 @@ background-color: rgba(0, 0, 0, 0.1);
 padding: 9px 0px;
 color: rgba(0, 0, 0, 0.8);
 margin-bottom: 10px;
+margin-top: -15px;
 
 }
 
@@ -38,10 +39,6 @@ color: rgba(0, 0, 0, 0.2);
   padding: 0px 25px;
 }
 
-.my-profile
-{
-  padding: 0px 25px;
-}
 
 .friends-screen__channel
 {
