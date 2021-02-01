@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700;800&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "variables.css";
+@import "nav-bar.css";
+@import "header.css";
+@import "user-component.css";
+@import "badge.css";
+
+body
+{
+   font-family: 'Nanum Gothic', sans-serif;
+
+
+
+}
+
+.find-icons
+{
+ text-align: center;
+
+
+}
+
+.find-icons__btn:nth-child(2)
+{
+width: 60px;
+}
+
+.find-icons i
+{
+font-size: 25px;
+}
+
+.find-icons__explain
+{
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.recommended-friends
+{
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  margin: 25px 0px;
+  padding: 25px 0px;
+}
+
+.recommended-friends h6
+{
+font-size: 15px;
+color: rgba(0, 0, 0, 0.4);
+}
+
+.recommended-friends__list
+{
+color: rgba(0, 0, 0, 0.4);
+font-size: 18px;
+margin-top: 110px;
+margin-bottom: 110px;
+text-align: center;
+}
+
+
+.open-chat-header
+{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: rgba(0, 0, 0, 0.4);
+font-size: 15px;
+margin-bottom: 25px;
+}
+
+.open-chat-thumbnail
+{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.open-chat-profile
+{
+  width: 120px;
+  height: 120px;
+  border-radius: 13px;
+  position: relative;
+}
+
+.open-chat-list-colummn
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-chat-list-colummn-member
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.open-chat-love-count
+{
+
+ position: absolute;
+  width:60px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  bottom: 5px;
+  right:5px;
+}
+
+.open-chat-love-count span
+{
+margin-left: 3px;
+
+
+}
