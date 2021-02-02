@@ -1,0 +1,24 @@
+.screen-header-columm
+{
+width: 33%
+}
+
+.screen-header-columm:last-child
+{
+display: flex;
+justify-content: flex-end;
+}
+
+.screen-header-columm:nth-child(2)
+{
+display: flex;
+justify-content: center;
+}
+
+.setting-header
+{
+display: flex;
+align-items: center;
+padding: 20px;
+
+}
