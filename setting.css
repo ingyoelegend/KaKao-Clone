@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700;800&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "variables.css";
+@import "nav-bar.css";
+@import "header.css";
+@import "user-component.css";
+@import "badge.css";
+@import "icons.css";
+
+body
+{
+   font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+.setting-colummn
+{
+
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+}
+
+
+
+
+.setting-icon
+{
+  margin-right: 15px;
+}
+
+
+.setting-main-screen
+{
+
+}
+
+.kakao-setting:last-child
+{
+  padding-bottom: 40px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.5);
+}
+
+.my-setting:first-child
+{
+  padding-top: 40px;
+}
+
+.my-setting:last-child
+{
+  border:none;
+}
