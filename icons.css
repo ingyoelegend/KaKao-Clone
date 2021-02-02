@@ -1,0 +1,21 @@
+.find-icons
+{
+ text-align: center;
+
+}
+
+.find-icons__btn:nth-child(2)
+{
+width: 60px;
+}
+
+.find-icons i
+{
+font-size: 25px;
+}
+
+.find-icons__explain
+{
+  margin-top: 15px;
+  font-size: 13px;
+}
