@@ -19,3 +19,10 @@ padding: 20px;
 {
   margin-left: 15px;
 }
+
+
+.screen-header__btn a
+{
+  text-decoration: none;
+  color: black;
+}
