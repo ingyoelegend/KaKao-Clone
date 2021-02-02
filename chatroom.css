@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700;800&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "variables.css";
+@import "nav-bar.css";
+@import "header.css";
+@import "user-component.css";
+@import "badge.css";
+@import "icons.css";
+@import "header_addition.css";
+body
+{
+   font-family: 'Nanum Gothic', sans-serif;
+   background-color: #abc1d1;
+}
