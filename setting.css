@@ -7,6 +7,7 @@
 @import "user-component.css";
 @import "badge.css";
 @import "icons.css";
+@import "header_addition";
 
 body
 {
@@ -14,11 +15,22 @@ body
 }
 
 
+
+
+.setting-header
+{
+display: flex;
+align-items: center;
+padding: 20px;
+
+}
+
 .setting-colummn
 {
 
     border-bottom: solid 1px rgba(0, 0, 0, 0.1);
     padding: 30px 20px;
+    align-items:center;
 }
 
 
@@ -30,15 +42,13 @@ body
 }
 
 
-.setting-main-screen
-{
-
-}
 
 .kakao-setting:last-child
 {
   padding-bottom: 40px;
     border-bottom: solid 1px rgba(0, 0, 0, 0.5);
+
+
 }
 
 .my-setting:first-child
@@ -49,4 +59,16 @@ body
 .my-setting:last-child
 {
   border:none;
+}
+
+.additional-info
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.additional-info div:last-child
+{
+  color: rgba(0, 0, 0, 0.4);
 }
