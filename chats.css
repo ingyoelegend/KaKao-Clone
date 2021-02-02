@@ -31,3 +31,9 @@ body
   flex-direction: column;
   align-items: flex-end;
 }
+
+.chatroom
+{
+  text-decoration: none;
+  color: black;
+}
