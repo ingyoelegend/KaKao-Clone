@@ -51,7 +51,7 @@ body
 {
   width: 100%;
   display: flex;
-  margin-top: 80px;
+  margin: 80px 0px;
 }
 
 .main-screen-message-me
@@ -62,7 +62,24 @@ body
 .main-screen-message-me span:first-child
 {
   background-color: var(--yellow);
-  border-top-right-radius: 0px;
+
+}
+
+
+.main-screen-message-me .main-screen-message-chatbox
+{
+  flex-direction: row-reverse;
+}
+
+.main-screen-message-me .main-screen-message-time
+{
+    margin-right: 5px;
+}
+
+.main-screen-message-me .main-screen-message-text
+{
+    border-radius: 10px;
+      border-top-right-radius: 0px;
 }
 
 .main-screen-message
@@ -105,4 +122,27 @@ align-items: flex-end;
   display: block;
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 8px;
+}
+
+
+.message-input
+{
+display: flex;
+position: fixed;
+bottom: 0;
+width: 100%;
+background-color: white;
+padding: 10px;
+box-sizing: border-box;
+align-items: center;
+
+
+}
+
+.message-input-text
+{
+  border-radius: 20px;
+  width: 100%;
+  height: 30px;
+  margin-right: 10px;
 }
