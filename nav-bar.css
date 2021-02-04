@@ -24,7 +24,83 @@ justify-content: space-between;
 
 }
 
+.nav__ul li:nth-child(2) a
+{
+
+position: relative;
+
+}
+
+.chat-count
+{
+  position: absolute;
+  bottom: 8px;
+  left: 12px;
+  font-size: 10px;
+  animation: notify 2s ease-in-out infinite;
+
+
+}
+
 .nav__a
 {
   color: rgba(0,0,0,0.8);
+}
+
+@keyframes notify
+{
+
+  0%
+  {
+    transform: none;
+  }
+  50%
+  {
+    transform: translateY(-4px) rotateY(360deg);
+  }
+  100%
+  {
+    transform: none;
+  }
+
+
+
+
+}
+
+@keyframes rise-nav
+{
+  from
+  {
+
+    opacity: 0;
+  }
+  to
+  {
+      opacity: 1;
+    transform: none;
+
+  }
+}
+
+.nav__li
+{
+  transform: translateY(50px);
+  opacity: 0;
+  animation: 1s ease-in-out rise-nav forwards;
+}
+
+.nav__li:nth-child(2)
+{
+animation-delay: 0.5s;
+}
+
+.nav__li:nth-child(3)
+{
+animation-delay: 1s;
+}
+
+.nav__li:nth-child(4)
+{
+animation-delay: 1.5s;
 }

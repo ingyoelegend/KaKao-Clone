@@ -20,9 +20,29 @@ padding: 20px;
   margin-left: 15px;
 }
 
+.screen-header__btn i:hover
+{
+  animation: 5s ease-in-out spin-btn infinite;
+}
 
 .screen-header__btn a
 {
   text-decoration: none;
   color: black;
+}
+
+@keyframes spin-btn
+{
+  0%
+  {
+    transform: none;
+  }
+  50%
+  {
+    transform: rotateY(360deg);
+  }
+  100%
+  {
+    transform: none;
+  }
 }
